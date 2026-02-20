@@ -1,0 +1,6 @@
+[01m[K/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/src/param_node.cpp:51:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+   51 | }[01;31m[Ks[m[K
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/param_node.dir/build.make:76: CMakeFiles/param_node.dir/src/param_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/param_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

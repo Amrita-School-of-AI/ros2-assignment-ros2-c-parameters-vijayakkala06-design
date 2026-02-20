@@ -1,0 +1,106 @@
+[2.041s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ros2_parameters']
+[2.041s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ros2_parameters'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a8881fb4800>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a8881fb44d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a8881fb44d0>>, mixin_verb=('build',))
+[2.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.428s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.656s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ros2_parameters'
+[2.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.818s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install
+[2.821s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/vijay-kiran-reddy/line_follower_ws/install
+[2.822s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/vijay-kiran-reddy/ros2_ws/install
+[2.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 436 installed packages in /opt/ros/jazzy
+[2.838s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.789s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_args' from command line to 'None'
+[3.789s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_target' from command line to 'None'
+[3.789s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.789s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_clean_cache' from command line to 'False'
+[3.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_clean_first' from command line to 'False'
+[3.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'cmake_force_configure' from command line to 'False'
+[3.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'ament_cmake_args' from command line to 'None'
+[3.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'catkin_cmake_args' from command line to 'None'
+[3.790s] Level 5:colcon.colcon_core.verb:set package 'ros2_parameters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.790s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_parameters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters', 'merge_install': False, 'path': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design', 'symlink_install': False, 'test_result_base': None}
+[3.790s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.816s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design' with build type 'ament_cmake'
+[3.816s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design'
+[3.877s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters -- -j1 -l1
+[28.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters -- -j1 -l1
+[28.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters
+[28.352s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_parameters)
+[28.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters
+[28.381s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters' for CMake module files
+[28.382s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters' for CMake config files
+[28.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_parameters', 'cmake_prefix_path')
+[28.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.ps1'
+[28.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.dsv'
+[28.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.sh'
+[28.394s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib'
+[28.394s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/bin'
+[28.395s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/pkgconfig/ros2_parameters.pc'
+[28.395s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/python3.12/site-packages'
+[28.396s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/bin'
+[28.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.ps1'
+[28.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.dsv'
+[28.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.sh'
+[28.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.bash'
+[28.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.zsh'
+[28.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/colcon-core/packages/ros2_parameters)
+[28.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_parameters)
+[28.464s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters' for CMake module files
+[28.465s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters' for CMake config files
+[28.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_parameters', 'cmake_prefix_path')
+[28.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.ps1'
+[28.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.dsv'
+[28.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/hook/cmake_prefix_path.sh'
+[28.486s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib'
+[28.486s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/bin'
+[28.486s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/pkgconfig/ros2_parameters.pc'
+[28.487s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/python3.12/site-packages'
+[28.487s] Level 1:colcon.colcon_core.environment:checking '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/bin'
+[28.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.ps1'
+[28.492s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.dsv'
+[28.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.sh'
+[28.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.bash'
+[28.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.zsh'
+[28.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/colcon-core/packages/ros2_parameters)
+[28.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.520s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.623s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.765s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/local_setup.ps1'
+[28.782s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/_local_setup_util_ps1.py'
+[28.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/setup.ps1'
+[28.816s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/local_setup.sh'
+[28.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/_local_setup_util_sh.py'
+[28.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/setup.sh'
+[28.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/local_setup.bash'
+[28.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/setup.bash'
+[28.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/local_setup.zsh'
+[28.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/setup.zsh'

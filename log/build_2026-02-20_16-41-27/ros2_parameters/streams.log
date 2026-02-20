@@ -1,0 +1,38 @@
+[0.233s] Invoking command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design -DCMAKE_INSTALL_PREFIX=/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters
+[2.124s] -- The C compiler identification is GNU 13.3.0
+[3.210s] -- The CXX compiler identification is GNU 13.3.0
+[3.455s] -- Detecting C compiler ABI info
+[4.394s] -- Detecting C compiler ABI info - done
+[4.448s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.477s] -- Detecting C compile features
+[4.478s] -- Detecting C compile features - done
+[4.539s] -- Detecting CXX compiler ABI info
+[6.296s] -- Detecting CXX compiler ABI info - done
+[6.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.362s] -- Detecting CXX compile features
+[6.363s] -- Detecting CXX compile features - done
+[6.713s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.337s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.765s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[13.861s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[14.285s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.518s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[16.555s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[17.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[18.007s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[18.175s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[19.830s] -- Configuring done (19.2s)
+[19.906s] -- Generating done (0.0s)
+[19.940s] -- Build files have been written to: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters
+[19.964s] Invoked command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design -DCMAKE_INSTALL_PREFIX=/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters
+[19.965s] Invoking command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters -- -j1 -l1
+[20.520s] [ 50%] [32mBuilding CXX object CMakeFiles/param_node.dir/src/param_node.cpp.o[0m
+[45.101s] [01m[K/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/src/param_node.cpp:51:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ks[m[K’ does not name a type
+[45.101s]    51 | }[01;31m[Ks[m[K
+[45.102s]       |  [01;31m[K^[m[K
+[54.520s] gmake[2]: *** [CMakeFiles/param_node.dir/build.make:76: CMakeFiles/param_node.dir/src/param_node.cpp.o] Error 1
+[54.558s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/param_node.dir/all] Error 2
+[54.561s] gmake: *** [Makefile:146: all] Error 2
+[54.630s] Invoked command in '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters -- -j1 -l1

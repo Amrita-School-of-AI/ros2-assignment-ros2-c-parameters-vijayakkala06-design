@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.031373] (ros2_parameters) JobQueued: {'identifier': 'ros2_parameters', 'dependencies': OrderedDict()}
+[0.031558] (ros2_parameters) JobStarted: {'identifier': 'ros2_parameters'}
+[0.105589] (-) TimerEvent: {}
+[0.186205] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'cmake'}
+[0.195241] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'build'}
+[0.196274] (ros2_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', '--', '-j1', '-l1'], 'cwd': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'vijay-kiran-reddy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vijay-kiran-reddy', 'OLDPWD': '/home/vijay-kiran-reddy/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1980', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install:/home/vijay-kiran-reddy/line_follower_ws/install:/home/vijay-kiran-reddy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vijay-kiran-reddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vijay-kiran-reddy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vijay-kiran-reddy-2006:@/tmp/.ICE-unix/1936,unix/vijay-kiran-reddy-2006:/tmp/.ICE-unix/1936', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e068eca5_1efc_4a30_a56a_7830a0cd80f2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OVMAL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.328', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/install/ros2_subscriber:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_server:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_client:/home/vijay-kiran-reddy/ros2_ws/install/ros2_publisher:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vijay-kiran-reddy/ros2_ws/install/line_follower/lib/python3.12/site-packages:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/install/ros2_subscriber:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_server:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_client:/home/vijay-kiran-reddy/ros2_ws/install/ros2_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy'}), 'shell': False}
+[0.210406] (-) TimerEvent: {}
+[0.321656] (-) TimerEvent: {}
+[0.443608] (-) TimerEvent: {}
+[0.549454] (-) TimerEvent: {}
+[0.650132] (-) TimerEvent: {}
+[0.765502] (-) TimerEvent: {}
+[0.819720] (ros2_parameters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/param_node.dir/src/param_node.cpp.o\x1b[0m\n'}
+[0.872547] (-) TimerEvent: {}
+[0.973537] (-) TimerEvent: {}
+[1.085544] (-) TimerEvent: {}
+[1.197558] (-) TimerEvent: {}
+[1.314661] (-) TimerEvent: {}
+[1.418378] (-) TimerEvent: {}
+[1.521371] (-) TimerEvent: {}
+[1.628649] (-) TimerEvent: {}
+[1.739434] (-) TimerEvent: {}
+[1.853543] (-) TimerEvent: {}
+[1.954426] (-) TimerEvent: {}
+[2.081617] (-) TimerEvent: {}
+[2.182856] (-) TimerEvent: {}
+[2.299382] (-) TimerEvent: {}
+[2.411501] (-) TimerEvent: {}
+[2.513044] (-) TimerEvent: {}
+[2.650394] (-) TimerEvent: {}
+[2.765643] (-) TimerEvent: {}
+[2.888487] (-) TimerEvent: {}
+[2.992594] (-) TimerEvent: {}
+[3.097567] (-) TimerEvent: {}
+[3.210471] (-) TimerEvent: {}
+[3.314653] (-) TimerEvent: {}
+[3.418499] (-) TimerEvent: {}
+[3.523459] (-) TimerEvent: {}
+[3.636907] (-) TimerEvent: {}
+[3.742527] (-) TimerEvent: {}
+[3.855410] (-) TimerEvent: {}
+[3.961518] (-) TimerEvent: {}
+[4.065698] (-) TimerEvent: {}
+[4.169662] (-) TimerEvent: {}
+[4.282562] (-) TimerEvent: {}
+[4.396470] (-) TimerEvent: {}
+[4.500520] (-) TimerEvent: {}
+[4.605821] (-) TimerEvent: {}
+[4.718651] (-) TimerEvent: {}
+[4.823485] (-) TimerEvent: {}
+[4.931482] (-) TimerEvent: {}
+[5.040685] (-) TimerEvent: {}
+[5.144553] (-) TimerEvent: {}
+[5.246400] (-) TimerEvent: {}
+[5.351079] (-) TimerEvent: {}
+[5.461159] (-) TimerEvent: {}
+[5.600634] (-) TimerEvent: {}
+[5.703359] (-) TimerEvent: {}
+[5.818485] (-) TimerEvent: {}
+[5.931463] (-) TimerEvent: {}
+[6.036549] (-) TimerEvent: {}
+[6.149449] (-) TimerEvent: {}
+[6.251360] (-) TimerEvent: {}
+[6.356506] (-) TimerEvent: {}
+[6.460388] (-) TimerEvent: {}
+[6.564651] (-) TimerEvent: {}
+[6.673585] (-) TimerEvent: {}
+[6.781749] (-) TimerEvent: {}
+[6.885379] (-) TimerEvent: {}
+[6.990616] (-) TimerEvent: {}
+[7.097415] (-) TimerEvent: {}
+[7.198828] (-) TimerEvent: {}
+[7.312454] (-) TimerEvent: {}
+[7.419721] (-) TimerEvent: {}
+[7.522685] (-) TimerEvent: {}
+[7.627513] (-) TimerEvent: {}
+[7.728586] (-) TimerEvent: {}
+[7.839701] (-) TimerEvent: {}
+[7.955541] (-) TimerEvent: {}
+[8.065302] (-) TimerEvent: {}
+[8.176725] (-) TimerEvent: {}
+[8.277625] (-) TimerEvent: {}
+[8.381579] (-) TimerEvent: {}
+[8.485506] (-) TimerEvent: {}
+[8.589615] (-) TimerEvent: {}
+[8.692594] (-) TimerEvent: {}
+[8.797859] (-) TimerEvent: {}
+[8.902936] (-) TimerEvent: {}
+[9.005431] (-) TimerEvent: {}
+[9.110454] (-) TimerEvent: {}
+[9.213415] (-) TimerEvent: {}
+[9.315500] (-) TimerEvent: {}
+[9.420626] (-) TimerEvent: {}
+[9.532411] (-) TimerEvent: {}
+[9.636572] (-) TimerEvent: {}
+[9.740439] (-) TimerEvent: {}
+[9.860677] (-) TimerEvent: {}
+[9.980425] (-) TimerEvent: {}
+[10.084602] (-) TimerEvent: {}
+[10.188614] (-) TimerEvent: {}
+[10.293752] (-) TimerEvent: {}
+[10.394637] (-) TimerEvent: {}
+[10.499523] (-) TimerEvent: {}
+[10.603549] (-) TimerEvent: {}
+[10.719729] (-) TimerEvent: {}
+[10.830527] (-) TimerEvent: {}
+[10.933721] (-) TimerEvent: {}
+[11.048613] (-) TimerEvent: {}
+[11.151478] (-) TimerEvent: {}
+[11.255381] (-) TimerEvent: {}
+[11.361435] (-) TimerEvent: {}
+[11.463568] (-) TimerEvent: {}
+[11.578516] (-) TimerEvent: {}
+[11.681578] (-) TimerEvent: {}
+[11.784386] (-) TimerEvent: {}
+[11.889510] (-) TimerEvent: {}
+[11.992486] (-) TimerEvent: {}
+[12.105609] (-) TimerEvent: {}
+[12.219419] (-) TimerEvent: {}
+[12.333436] (-) TimerEvent: {}
+[12.437498] (-) TimerEvent: {}
+[12.541692] (-) TimerEvent: {}
+[12.655562] (-) TimerEvent: {}
+[12.758490] (-) TimerEvent: {}
+[12.883513] (-) TimerEvent: {}
+[13.022103] (-) TimerEvent: {}
+[13.132438] (-) TimerEvent: {}
+[13.245491] (-) TimerEvent: {}
+[13.349476] (-) TimerEvent: {}
+[13.462371] (-) TimerEvent: {}
+[13.567554] (-) TimerEvent: {}
+[13.671472] (-) TimerEvent: {}
+[13.785686] (-) TimerEvent: {}
+[13.889420] (-) TimerEvent: {}
+[14.003416] (-) TimerEvent: {}
+[14.106665] (-) TimerEvent: {}
+[14.219524] (-) TimerEvent: {}
+[14.334523] (-) TimerEvent: {}
+[14.437406] (-) TimerEvent: {}
+[14.540454] (-) TimerEvent: {}
+[14.644432] (-) TimerEvent: {}
+[14.758364] (-) TimerEvent: {}
+[14.861868] (-) TimerEvent: {}
+[14.966764] (-) TimerEvent: {}
+[15.069476] (-) TimerEvent: {}
+[15.173487] (-) TimerEvent: {}
+[15.278549] (-) TimerEvent: {}
+[15.381609] (-) TimerEvent: {}
+[15.484370] (-) TimerEvent: {}
+[15.599611] (-) TimerEvent: {}
+[15.703357] (-) TimerEvent: {}
+[15.817466] (-) TimerEvent: {}
+[15.930493] (-) TimerEvent: {}
+[16.052543] (-) TimerEvent: {}
+[16.168728] (-) TimerEvent: {}
+[16.283339] (-) TimerEvent: {}
+[16.396316] (-) TimerEvent: {}
+[16.501486] (-) TimerEvent: {}
+[16.603513] (-) TimerEvent: {}
+[16.718584] (-) TimerEvent: {}
+[16.833697] (-) TimerEvent: {}
+[16.935644] (-) TimerEvent: {}
+[17.038417] (-) TimerEvent: {}
+[17.193738] (-) TimerEvent: {}
+[17.298863] (-) TimerEvent: {}
+[17.410494] (-) TimerEvent: {}
+[17.514450] (-) TimerEvent: {}
+[17.618440] (-) TimerEvent: {}
+[17.722538] (-) TimerEvent: {}
+[17.835122] (-) TimerEvent: {}
+[17.938452] (-) TimerEvent: {}
+[18.042567] (-) TimerEvent: {}
+[18.146609] (-) TimerEvent: {}
+[18.249523] (-) TimerEvent: {}
+[18.364506] (-) TimerEvent: {}
+[18.478596] (-) TimerEvent: {}
+[18.582485] (-) TimerEvent: {}
+[18.685582] (-) TimerEvent: {}
+[18.790686] (-) TimerEvent: {}
+[18.895503] (-) TimerEvent: {}
+[18.998496] (-) TimerEvent: {}
+[19.187587] (-) TimerEvent: {}
+[19.288557] (-) TimerEvent: {}
+[19.392528] (-) TimerEvent: {}
+[19.496387] (-) TimerEvent: {}
+[19.599398] (-) TimerEvent: {}
+[19.712555] (-) TimerEvent: {}
+[19.816498] (-) TimerEvent: {}
+[19.929592] (-) TimerEvent: {}
+[20.033572] (-) TimerEvent: {}
+[20.138729] (-) TimerEvent: {}
+[20.255785] (-) TimerEvent: {}
+[20.356801] (-) TimerEvent: {}
+[20.467442] (-) TimerEvent: {}
+[20.572463] (-) TimerEvent: {}
+[20.673760] (-) TimerEvent: {}
+[20.787427] (-) TimerEvent: {}
+[20.890102] (-) TimerEvent: {}
+[21.018505] (-) TimerEvent: {}
+[21.122679] (-) TimerEvent: {}
+[21.223642] (-) TimerEvent: {}
+[21.327507] (-) TimerEvent: {}
+[21.442635] (-) TimerEvent: {}
+[21.548218] (-) TimerEvent: {}
+[21.655827] (-) TimerEvent: {}
+[21.773460] (-) TimerEvent: {}
+[21.876498] (-) TimerEvent: {}
+[21.980565] (-) TimerEvent: {}
+[22.084422] (-) TimerEvent: {}
+[22.198395] (-) TimerEvent: {}
+[22.301540] (-) TimerEvent: {}
+[22.415507] (-) TimerEvent: {}
+[22.519365] (ros2_parameters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable param_node\x1b[0m\n'}
+[22.519781] (-) TimerEvent: {}
+[22.620536] (-) TimerEvent: {}
+[22.723980] (-) TimerEvent: {}
+[22.839431] (-) TimerEvent: {}
+[22.942766] (-) TimerEvent: {}
+[23.043472] (-) TimerEvent: {}
+[23.177929] (-) TimerEvent: {}
+[23.280988] (-) TimerEvent: {}
+[23.398791] (-) TimerEvent: {}
+[23.499905] (-) TimerEvent: {}
+[23.613503] (-) TimerEvent: {}
+[23.714600] (-) TimerEvent: {}
+[23.838702] (-) TimerEvent: {}
+[23.941767] (-) TimerEvent: {}
+[24.047472] (-) TimerEvent: {}
+[24.171987] (-) TimerEvent: {}
+[24.235542] (ros2_parameters) StdoutLine: {'line': b'[100%] Built target param_node\n'}
+[24.281424] (-) TimerEvent: {}
+[24.309153] (ros2_parameters) CommandEnded: {'returncode': 0}
+[24.323614] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'install'}
+[24.378203] (ros2_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters'], 'cwd': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'vijay-kiran-reddy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vijay-kiran-reddy', 'OLDPWD': '/home/vijay-kiran-reddy/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1980', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install:/home/vijay-kiran-reddy/line_follower_ws/install:/home/vijay-kiran-reddy/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vijay-kiran-reddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vijay-kiran-reddy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vijay-kiran-reddy-2006:@/tmp/.ICE-unix/1936,unix/vijay-kiran-reddy-2006:/tmp/.ICE-unix/1936', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e068eca5_1efc_4a30_a56a_7830a0cd80f2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OVMAL3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.328', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/install/ros2_subscriber:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_server:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_client:/home/vijay-kiran-reddy/ros2_ws/install/ros2_publisher:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/build/ros2_parameters', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vijay-kiran-reddy/ros2_ws/install/line_follower/lib/python3.12/site-packages:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/vijay-kiran-reddy/ros2_ws/install/ros2_subscriber:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_server:/home/vijay-kiran-reddy/ros2_ws/install/ros2_service_client:/home/vijay-kiran-reddy/ros2_ws/install/ros2_publisher:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vijay-kiran-reddy/ros2_ws/install/line_follower:/home/vijay-kiran-reddy/line_follower_ws/install/line_follower:/opt/ros/jazzy'}), 'shell': False}
+[24.382576] (-) TimerEvent: {}
+[24.443578] (ros2_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[24.444877] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/ros2_parameters/param_node\n'}
+[24.447276] (ros2_parameters) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/lib/ros2_parameters/param_node" to ""\n'}
+[24.469715] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ament_index/resource_index/package_run_dependencies/ros2_parameters\n'}
+[24.477808] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ament_index/resource_index/parent_prefix_path/ros2_parameters\n'}
+[24.478193] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/environment/ament_prefix_path.sh\n'}
+[24.485619] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/environment/ament_prefix_path.dsv\n'}
+[24.485942] (-) TimerEvent: {}
+[24.486154] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/environment/path.sh\n'}
+[24.507634] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/environment/path.dsv\n'}
+[24.508084] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/local_setup.bash\n'}
+[24.522800] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/local_setup.sh\n'}
+[24.523123] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/local_setup.zsh\n'}
+[24.529622] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/local_setup.dsv\n'}
+[24.529964] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.dsv\n'}
+[24.530216] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ament_index/resource_index/packages/ros2_parameters\n'}
+[24.533447] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/cmake/ros2_parametersConfig.cmake\n'}
+[24.536508] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/cmake/ros2_parametersConfig-version.cmake\n'}
+[24.540092] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/vijay-kiran-reddy/ros2_ws/src/ros2-assignment-ros2-c-parameters-vijayakkala06-design/install/ros2_parameters/share/ros2_parameters/package.xml\n'}
+[24.551419] (ros2_parameters) CommandEnded: {'returncode': 0}
+[24.592589] (-) TimerEvent: {}
+[24.698582] (-) TimerEvent: {}
+[24.713705] (ros2_parameters) JobEnded: {'identifier': 'ros2_parameters', 'rc': 0}
+[24.717420] (-) EventReactorShutdown: {}
