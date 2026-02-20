@@ -1,0 +1,12 @@
+# ROS2 / colcon
+build/
+install/
+log/
+
+# IDE files
+.vscode/
+.idea/
+
+# Backup files
+*~
+*.swp
