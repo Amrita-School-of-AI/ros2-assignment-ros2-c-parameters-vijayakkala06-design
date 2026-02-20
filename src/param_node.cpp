@@ -1,5 +1,7 @@
-#include "rclcpp/rclcpp.hpp"
+#include <rclcpp/rclcpp.hpp>
 #include <string>
+
+using namespace std::chrono_literals;
 
 class ParamNode : public rclcpp::Node
 {
@@ -13,7 +15,7 @@ public:
 
     // Create timer (2000 ms)
     timer_ = this->create_wall_timer(
-      std::chrono::milliseconds(2000),
+      2000ms,
       std::bind(&ParamNode::timer_callback, this)
     );
   }
@@ -30,6 +32,7 @@ private:
     this->get_parameter("max_speed", max_speed);
     this->get_parameter("enabled", enabled);
 
+    // Log output
     RCLCPP_INFO(
       this->get_logger(),
       "Robot: %s, Max Speed: %f, Enabled: %s",
@@ -49,3 +52,4 @@ int main(int argc, char * argv[])
   rclcpp::shutdown();
   return 0;
 }
+
